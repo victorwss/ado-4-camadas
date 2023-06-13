@@ -9,7 +9,7 @@ Para facilitar o trabalho deles, crie um pequeno sistema que os ajude a encontra
 Para isso, eles devem usar o seu pequeno sistema onde informam um CEP brasileiro e obtém como resposta os dados que informam qual CEP é esse
 e qual é o pokémon mais comum no logradouro correspondente.
 
-## Organização dos grupos.
+## Organização dos grupos
 
 O trabalho deve ser feito em grupos de 1 a 4 pessoas.
 Preferencialmente, os mesmos grupos com os mesmos membros dos trabalhos anteriores.
