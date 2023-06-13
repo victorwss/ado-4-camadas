@@ -25,7 +25,7 @@ O sistema deve ser desenvolvido com uma (e apenas uma) dessas opções:
 
 * Em Python utilizando [Flask](https://flask.palletsprojects.com/en/2.3.x/) e [Requests](https://requests.readthedocs.io/en/latest/).
 
-* Alguma outra API ou conjunto de APIs que seja fácil de usar/baixar e/ou instalar em PHP, Java ou Python.
+* Alguma outra API ou conjunto de APIs que seja fácil de usar, baixar e/ou instalar em PHP, Java ou Python.
 
 ## Procedimentos da implementação
 
