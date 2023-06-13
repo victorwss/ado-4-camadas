@@ -2,14 +2,15 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Cliente</title>
+        <title>CEP do pokémon</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script>
             "use strict";
 
             async function pesquisar() {
                 const cep = document.getElementById("pesquisa").value;
-                const resultado = await fetch(`https://localhost:5555/pesquisar/${cep}`);
+                const url = document.getElementById("url").value.replace("XXXX", cep);
+                const resultado = await fetch(url);
                 let json;
                 if (resultado.status === 200) {
                     json = await resultado.json();
@@ -32,6 +33,10 @@
         <h1 class="testefw-titulo">ADO 4</h1>
         <address class="testefw-versao">Versão 1º semestre 2023</address>
 
+        <p>
+            <label for="url">URL de pesquisa (coloque com XXXX o CEP):</label>
+            <input type="text" id="url" value="https://localhost:5555/pesquisar/XXXX">
+        </p>
         <p>
             <label for="pesquisa">CEP a pesquisar:</label>
             <input type="text" id="pesquisa">
