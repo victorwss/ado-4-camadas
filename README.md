@@ -6,8 +6,7 @@ Seus usuários são treinadores de pokémons que desejam encontrar pokémons par
 
 Para facilitar o trabalho deles, crie um pequeno sistema que os ajude a encontrar seus pokémons.
 
-Para isso, eles devem usar o seu pequeno sistema onde informam um CEP brasileiro e obtém como resposta os dados que informam qual CEP é esse
-e qual é o pokémon mais comum no logradouro correspondente.
+Para isso, eles devem usar o seu pequeno sistema onde informam um CEP brasileiro e obtém como resposta os dados que informam qual CEP é esse e qual é o pokémon mais comum no logradouro correspondente.
 
 ## Organização dos grupos
 
@@ -25,6 +24,8 @@ O sistema deve ser desenvolvido com uma (e apenas uma) dessas opções:
 * Em Java 11 ou superior utilizando [HttpClient](https://docs.oracle.com/en/java/javase/20/docs/api/java.net.http/java/net/http/HttpClient.html).
 
 * Em Python utilizando [Flask](https://flask.palletsprojects.com/en/2.3.x/) e [Requests](https://requests.readthedocs.io/en/latest/).
+
+* Alguma outra API ou conjunto de APIs que seja fácil de usar/baixar e/ou instalar em PHP, Java ou Python.
 
 ## Procedimentos da implementação
 
