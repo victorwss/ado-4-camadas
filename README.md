@@ -74,5 +74,12 @@ no site [https://pokeapi.co/api/v2/pokemon/NNN](https://pokeapi.co), onde NNN é
 {
     "ok": false
 }
+```
 
 5. Certifique-se que a página em HTML anexa disponibilizada pelo professor contendo um Javascript fazendo AJAX consegue ler e exibir os dados informados.
+
+## Entrega
+
+Faça um fork deste projeto aqui no GitHub e convide o professor para participar dele.
+
+O professor analisará a implementação disponibilizada no GitHub ao término do prazo (20/06).
