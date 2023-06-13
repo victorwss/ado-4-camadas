@@ -83,3 +83,5 @@ no site [https://pokeapi.co/api/v2/pokemon/NNN](https://pokeapi.co), onde NNN é
 Faça um fork deste projeto aqui no GitHub e convide o professor para participar dele.
 
 O professor analisará a implementação disponibilizada no GitHub ao término do prazo (20/06).
+
+Coloque também um arquivinho contendo o nome de todos os integrantes do grupo.
